@@ -61,7 +61,7 @@ a {
     /* object-fit: cover; */
 }
 .card-details {
-    padding: 15px;
+    padding: 20px 40px 20px 30px;
 }
 .card-details header,
 .card-details .card-body,
@@ -103,6 +103,36 @@ a {
     font-size: 0.6rem;
     color: black;
     padding: 7px;
+}
+.subscribe, 
+.subscribe form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe{
+    padding: 40px 0px;
+}
+.subscribe form {
+    padding: 40px 30px;
+
+}
+.subscribe input, 
+.subscribe button {
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+.subscribe button {
+    background: none;
+    margin: 10px 0px;
+}
+.subscribe button:hover {
+     background: grey;
+     color: white;
 }
 .footer {
     width: 100%;
