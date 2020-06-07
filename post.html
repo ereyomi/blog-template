@@ -1,11 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/index.css">
+        <title>Blog Title</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <!-- header -->
+            <header class="header">
+                <a class="blog-logo" href="/index.html">EreBlog</a>
+                <a href="#subscribe">subscribe</a>
+            </header>
+            <!-- content -->
+            <section class="content">
+                <!-- blog post card -->
+                <article class="cards">
+                    <div class="card-cover">
+                        <img src="images/robotA.jpg" alt="robot">
+                    </div>
+                    <div class="card-details">
+                        <header>
+                            <span>TECHNOLOGY</span>
+                            <span>NOVEMBER 12, 2020</span>
+                        </header>
+                        <div class="card-body">
+                            <h2>Blog Title</h2>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
+                            from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
+                            looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of
+                            the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+                            of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise
+                            on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+                            amet..", comes from a line in section 1.10.32.
+                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and
+                            1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by
+                            English versions from the 1914 translation by H. Rackham.</p>
+                        </div>
+                        <footer>
+                            <a href="#">CONTINUE READING</a>
+                        </footer>
+                    </div>
+                </article>
+                <!-- blog post card -->
+                <article class="cards">
+                    <div class="card-cover">
+                        <img src="images/robotB.jpg" alt="robot">
+                    </div>
+                    <div class="card-details">
+                        <header>
+                            <span>TECHNOLOGY</span>
+                            <span>NOVEMBER 12, 2020</span>
+                        </header>
+                        <div class="card-body">
+                            <h2>Blog Title</h2>
+                            <p>This Card represents an example blog post</p>
+                        </div>
+                        <footer>
+                            <a href="#">CONTINUE READING</a>
+                        </footer>
+                    </div>
+                </article>
+            </section>
+            <!-- subscribed -->
+            <section class="subscribe" id="subscribe">
+                <h2>Subscribe</h2>
+                <form>
+                    <input type="email" name="subscribe" id="subscribe" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </section>
+            <footer class="footer">
+                <p>Blog template built for <a href="#">Bootstrap</a></p>
+            </footer>
+        </div>
+    </body>
+
 </html>
