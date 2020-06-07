@@ -87,3 +87,13 @@ a {
     align-items: center;
     padding: 15px 0px;
 }
+@media screen and (min-width: 600px) {
+    .content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        padding: 0px 50px;
+    }
+    .subscribe form {
+        width: 40%;
+    }
+}
