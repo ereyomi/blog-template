@@ -1,0 +1,72 @@
+.post-box {
+    padding: 30px 25px;
+}
+.post-header,
+.post-title {
+    padding: 10px 0px;
+}
+.post-title p {
+    color: grey;
+    font-size: 0.5rem;
+    margin: 3px 0px;
+}
+.post-author-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 10px 0px;
+}
+.author-image {
+   width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    overflow: hidden; 
+}
+.author-image img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+.author-details {
+    padding: 0px 15px;
+}
+.post-body {
+    width: 100%;
+}
+.post-cover {
+    width: 100%;
+    margin: 10px 0px;
+}
+.post-cover img {
+    width: 100%;
+}
+.quote {
+    border-left: 6px solid tomato;
+    background: rgb(238, 238, 238);
+    padding: 10px 20px;
+    margin: 10px 0px;
+}
+.button
+{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    width: 5%;
+}
+.button .older-post{
+    color: blue;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    margin: 5px 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+.button .newer-post{
+    color: gray;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    margin: 5px 10px;
+    border-radius: 30px;
+    text-align: center;
+}
